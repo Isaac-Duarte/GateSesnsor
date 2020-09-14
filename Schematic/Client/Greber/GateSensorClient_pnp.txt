@@ -1,0 +1,23 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=GateSensorClient
+*Date=13:23:22
+*CreatedBy=Fritzing 0.9.4.2019-12-01.CD-498
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;5 mm [THT];9.47274;-19.6742;0;Bottom;LED
+2;;;48.3327;-26.3344;0;Bottom;TXT2
+3;100;2010 [SMD];5.31536;-9.8542;90;Bottom;R4
+4;;;37.0079;-30.7731;0;Bottom;TXT1
+5;;;45.5028;-17.1076;0;Bottom;ESP33
+6;220;2010 [SMD];15.4754;-9.8542;90;Bottom;R6
+7;;;17.9832;-7.1774;0;Bottom;Via1
+8;220;2010 [SMD];10.3954;-9.8542;90;Bottom;R5
