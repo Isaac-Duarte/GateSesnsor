@@ -10,4 +10,4 @@ The client has a light indicator telling if the gate is open or closed.
 ## Schematics
 
 ### Server
-![Server](https://github.com/Isaac-Duarte/GateSesnsor/blob/master/Schematic/Server/GateSensorServer_pcb.png)
+![Server](https://github.com/Isaac-Duarte/GateSesnsor/blob/master/Schematic/GateSensorServer_pcb.png)
