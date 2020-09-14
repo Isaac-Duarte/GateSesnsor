@@ -14,4 +14,4 @@ The client has a light indicator telling if the gate is open or closed.
 
 
 ### Client
-[!Client](https://github.com/Isaac-Duarte/GateSesnsor/blob/master/Schematic/GateSensorClient_pcb.png)
+![Client](https://github.com/Isaac-Duarte/GateSesnsor/blob/master/Schematic/GateSensorClient_pcb.png)
