@@ -1,0 +1,26 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=GateSensorServer
+*Date=13:15:32
+*CreatedBy=Fritzing 0.9.4.2019-12-01.CD-498
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;58.8218;-27.8943;0;Bottom;TXT2
+2;;;69.1896;-5.0797;0;Bottom;Via2
+3;;reed_switch_plastic;72.9544;-3.454;180;Bottom;Reed Switch
+4;;;42.3444;-32.149;0;Bottom;TXT1
+5;;;61.8744;-2.0317;0;Bottom;Via3
+6;;;79.5528;-5.6893;0;Bottom;Via1
+7;220;2010 [SMD];81.8445;-8.87411;90;Bottom;R3
+8;220;2010 [SMD];76.7645;-8.87411;90;Bottom;R2
+9;100;2010 [SMD];71.6845;-8.87411;90;Bottom;R2
+10;;;28.9388;-18.704;0;Bottom;ESP32
+11;;5 mm [THT];75.8419;-18.6941;0;Bottom;LED
