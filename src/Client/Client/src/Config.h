@@ -1,10 +1,10 @@
 /*
     * Wifi config
 */
-const char socketIp[] = "192.168.0.76";
+const char socketIp[] = "***";
 const int socketPort = 1337;
-const char wifiSSID[] = "Apple Wi-Fi Network";
-const char wifiPasswsord[] = "3fdd8he48a48v7";
+const char wifiSSID[] = "****";
+const char wifiPasswsord[] = "***";
 
 /*
     * Common annode config

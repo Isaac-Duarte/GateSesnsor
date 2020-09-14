@@ -135,14 +135,6 @@ void updateTimer() {
       setColor(255, 0, 0);
       break;
   }
-
-  if (startTimer && (millis() - lastTrigger) > (secondsToUpdate)) {
-    for (int i = 0; i < phoneNumberCount; i = i + 1) {
-        sendTextMessage(phoneNumbers[i], textMessage);
-    }
-
-    startTimer = false;
-  }
 }
 
 void setup() {
@@ -174,6 +166,15 @@ void loop() {
     ltoa(reedState, buf, 10);
 	  webSocket.broadcastTXT(buf);
   }
+
+  if (startTimer && (millis() - lastTrigger) > (secondsToUpdate)) {
+    for (int i = 0; i < phoneNumberCount; i = i + 1) {
+        sendTextMessage(phoneNumbers[i], textMessage);
+    }
+
+    startTimer = false;
+  }
+  
 
   webSocket.loop();
 }
