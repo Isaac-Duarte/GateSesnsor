@@ -7,3 +7,7 @@ If the gate has been opened for more than the configurable time it'll send a tex
 The client has a light indicator telling if the gate is open or closed.
 
 
+## Schematics
+
+### Server
+![Server](https://github.com/Isaac-Duarte/GateSesnsor/blob/master/Schematic/Server/GateSensorServer_pcb.png)
