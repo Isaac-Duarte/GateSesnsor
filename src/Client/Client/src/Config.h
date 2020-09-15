@@ -1,10 +1,10 @@
 /*
     * Wifi config
 */
-const char socketIp[] = "***";
+const char socketIp[] = "192.168.4.1";
 const int socketPort = 1337;
-const char wifiSSID[] = "****";
-const char wifiPasswsord[] = "***";
+const char wifiSSID[] = "Gate Sesnsor";
+const char wifiPasswsord[] = "supersecretpassword";
 
 /*
     * Common annode config

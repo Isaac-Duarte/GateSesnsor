@@ -46,11 +46,11 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
     case WStype_TEXT: {
       int number = atoi((char*)payload);
 
-      if (number == 0) {
-        setColor(0, 255, 0);
-      }
-      else if                                                                                                                                                                           ` ```````````   (number == 1){
+      if (number == 1) {
         setColor(255, 0, 0);
+      }
+      else {
+        setColor(0, 255, 0);
       }
     }
     default:

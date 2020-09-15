@@ -69,6 +69,9 @@ void setColor(int red, int green, int blue) {
  * 
  */
 void connectToWifi() {
+  WiFi.mode(WIFI_AP_STA);
+  WiFi.softAP(apSSID, apPassword, 7, 0, 4);
+  
   Serial.print("Conntecting to ");
   Serial.print(wifiSSID);
 
